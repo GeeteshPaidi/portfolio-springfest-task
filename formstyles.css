@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    color: aliceblue;
+    background: url("images/meet.jpg") no-repeat center center/cover;
+}
+form{
+    width: 70%;
+    margin: 3% 15%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px black;
+    backdrop-filter: blur(5px);
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
+
+legend{
+    text-align: center;
+    border: solid 2px black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+fieldset{
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 20px;
+}
+fieldset div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+label{
+    width: 30%;
+}
+input{
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0,0,0,0.4);
+    color: aliceblue;
+    font-size: large;
+    align-items: end;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0,0,0,0.4);
+    color: aliceblue;
+    font-size: large;
+    align-items: end;
+    cursor: pointer;
+    transition: .15s;
+}
+
+button:hover{
+    background-color: rgba(0,0,0,0.7);
+    transition: .15s;
+}
